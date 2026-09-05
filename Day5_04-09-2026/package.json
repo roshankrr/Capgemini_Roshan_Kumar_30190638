@@ -1,0 +1,20 @@
+{
+  "name": "day5_04-09-2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.1",
+    "dotenv": "^17.4.2",
+    "multiple-cucumber-html-reporter": "^4.3.0",
+    "rimraf": "^6.1.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3"
+  }
+}

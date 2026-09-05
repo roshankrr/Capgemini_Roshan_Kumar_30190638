@@ -1,0 +1,448 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "student-should-be-able-to-fill-the-registration-form-successfully;student-registration",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Student Registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1451297100
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3306899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User opens the application",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8126031099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User enters \"John Doe\" and \"johndoe@example.com\" and \"Male\" and \"9876543210\" and \"1990-01-01\" and \"Science\" and \"Reading\" and \"./MyData.md\" and \"123 Main St, Cityville\" and \"Uttar Pradesh\" and \"Agra\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 572937900
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Click to the Login button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1049999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be able to register successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 622030899
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2803799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-should-be-able-to-fill-the-registration-form-successfully;student-registration",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Student Registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1832171099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1482299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User opens the application",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7549891099
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User enters \"Rosh Doe\" and \"roshdoe@example.com\" and \"Male\" and \"9876543210\" and \"1990-01-01\" and \"Science\" and \"Reading\" and \"./MyData.md\" and \"123 Main St, Cityville\" and \"Uttar Pradesh\" and \"Agra\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 595995700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Click to the Login button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 735499
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be able to register successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 721235600
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2563300
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-should-be-able-to-fill-the-registration-form-successfully;student-registration",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Student Registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2164304499
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5567299
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User opens the application",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7690384899
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User enters \"Josh Doe\" and \"joshdoe@example.com\" and \"Male\" and \"9876543210\" and \"1990-01-01\" and \"Science\" and \"Reading\" and \"./MyData.md\" and \"123 Main St, Cityville\" and \"Uttar Pradesh\" and \"Agra\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 567778000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Click to the Login button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 478299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be able to register successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 502557199
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 948600
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-should-be-able-to-fill-the-registration-form-successfully;student-registration",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Student Registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1697224000
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1208200
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User opens the application",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7511695299
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User enters \"Mosh Doe\" and \"moshdoe@example.com\" and \"Male\" and \"9876543210\" and \"1990-01-01\" and \"Science\" and \"Reading\" and \"./MyData.md\" and \"123 Main St, Cityville\" and \"Uttar Pradesh\" and \"Agra\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 577066899
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Click to the Login button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 549200
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be able to register successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 672457200
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1885199
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-should-be-able-to-fill-the-registration-form-successfully;student-registration",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Student Registration",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2245468399
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4300499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User opens the application",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7742122600
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User enters \"Fros Doe\" and \"frosdoe@example.com\" and \"Male\" and \"9876543210\" and \"1990-01-01\" and \"Science\" and \"Reading\" and \"./MyData.md\" and \"123 Main St, Cityville\" and \"Uttar Pradesh\" and \"Agra\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:13"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 571250400
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Click to the Login button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 421699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be able to register successfully",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 618889799
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1927799
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "student-should-be-able-to-fill-the-registration-form-successfully",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Student should be able to fill the registration form successfully",
+    "tags": [],
+    "uri": "features\\studentRegistration.feature"
+  }
+]
