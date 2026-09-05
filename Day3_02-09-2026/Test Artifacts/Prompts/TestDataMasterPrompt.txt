@@ -1,0 +1,295 @@
+Act as a **Senior QA Engineer and Test Data Analyst**.
+
+Generate comprehensive, realistic, and execution-ready **test data** for the test cases provided below.
+
+## REQUIREMENT
+
+**Requirement ID:** [REQ-XX]
+
+**Requirement Description:**
+[Enter requirement description]
+
+## ACCEPTANCE CRITERIA
+
+[Paste the acceptance criteria here]
+
+## TEST CASES
+
+[Paste the complete test cases here]
+
+---
+
+# OBJECTIVE
+
+Create the test data required to execute the provided test cases.
+
+The test data must directly correspond to the test cases and should cover:
+
+### 1. Positive Test Data
+
+Generate valid data for:
+
+* Valid inputs
+* Valid combinations of inputs
+* Successful transactions/workflows
+* Normal user behavior
+* Valid boundary values where applicable
+
+### 2. Negative Test Data
+
+Generate invalid or unexpected data for:
+
+* Invalid values
+* Incorrect formats
+* Empty/null values
+* Missing mandatory fields
+* Invalid combinations
+* Unsupported characters
+* Special characters
+* Incorrect credentials where applicable
+* Duplicate values where applicable
+* Unauthorized data where applicable
+
+### 3. Boundary Test Data
+
+Generate data for:
+
+* Minimum allowed value
+* Maximum allowed value
+* One value below minimum
+* One value above maximum
+* Empty value
+* Single-character value
+* Very long value
+* Zero
+* Negative values where applicable
+* Maximum-length strings
+* Over-limit strings
+
+**Important:** Do not invent business rules, field limits, formats, or validation rules that are not provided.
+
+If a minimum/maximum value is unknown, clearly mark it as:
+
+**"To be confirmed from application specification."**
+
+Do not assume a boundary value.
+
+### 4. Edge-Case Test Data
+
+Where applicable, include:
+
+* Leading/trailing spaces
+* Multiple consecutive spaces
+* Uppercase/lowercase variations
+* Special characters
+* Unicode characters
+* Numeric-only values
+* Alphabetic-only values
+* Alphanumeric values
+* Very long input
+* Duplicate records
+* Previously used values
+* Rapid/repeated submissions
+* Null/blank values
+
+Only include edge cases that are relevant to the specific field/functionality.
+
+---
+
+# TEST DATA RULES
+
+1. Every test case should have the necessary test data.
+
+2. Map each test data set to the corresponding **Testcase ID**.
+
+3. Do not generate random data that has no relationship to the test case.
+
+4. Use realistic but **synthetic** data. Do not use real people's personal information.
+
+5. Do not use actual passwords, email accounts, phone numbers, customer information, employee information, or other sensitive production data.
+
+6. For credentials:
+
+   * Clearly identify valid credentials as test accounts.
+   * Clearly identify invalid credentials.
+   * Do not expose real credentials.
+
+7. For fields with known constraints, provide:
+
+   * Valid value
+   * Minimum boundary value
+   * Maximum boundary value
+   * Below-minimum value
+   * Above-maximum value
+
+8. For fields where constraints are unknown, explicitly state:
+   **"Constraint to be confirmed from application specification."**
+
+9. Make test data easy for a manual tester to copy and use.
+
+10. Avoid duplicate test data unless duplication is specifically required by the test case.
+
+11. Ensure that negative test data actually violates the relevant requirement.
+
+12. Ensure that boundary data is appropriate for the field type:
+
+* Text
+* Number
+* Date
+* Email
+* Password
+* URL
+* Dropdown
+* Checkbox
+* File
+* etc.
+
+13. If a test case does not require input data, write:
+    **N/A**
+
+---
+
+# REQUIRED OUTPUT FORMAT
+
+Generate the test data using exactly these columns:
+
+| Testcase ID | Test Case Name | Data Type | Test Data | Data Category | Purpose/Usage | Expected Handling | Notes |
+
+### Data Category
+
+Use only:
+
+* Positive
+* Negative
+* Boundary
+* Edge
+
+### Expected Handling
+
+Describe how the application should handle the provided data based on the acceptance criteria.
+
+Do not invent an expected result if it is not defined by the requirement.
+
+---
+
+# DATA GENERATION GUIDELINES
+
+For text fields, consider:
+
+* Valid normal text
+* Minimum length
+* Maximum length
+* Below minimum
+* Above maximum
+* Empty
+* Spaces only
+* Leading spaces
+* Trailing spaces
+* Special characters
+* Numbers
+* Alphanumeric values
+* Very long strings
+* Unicode characters where applicable
+
+For numeric fields, consider:
+
+* Valid positive number
+* Zero
+* Negative number
+* Minimum value
+* Maximum value
+* Below minimum
+* Above maximum
+* Decimal values where applicable
+* Very large number
+* Alphabetic input where applicable
+
+For date fields, consider:
+
+* Valid date
+* Current date
+* Past date
+* Future date
+* Minimum allowed date
+* Maximum allowed date
+* Date outside allowed range
+* Invalid date format
+* Leap-year date where applicable
+
+For email fields, consider:
+
+* Valid email
+* Missing @
+* Missing domain
+* Missing username
+* Multiple @ symbols
+* Spaces
+* Special characters
+* Very long email
+* Uppercase/lowercase
+* Invalid domain format
+
+For password fields, consider:
+
+* Valid password
+* Minimum length
+* Maximum length
+* Below minimum
+* Above maximum
+* Empty password
+* Spaces
+* Special characters
+* Uppercase/lowercase
+* Numbers
+* Very long password
+
+Only apply these categories when relevant to the actual test case.
+
+---
+
+# TEST DATA QUALITY CHECK
+
+Before providing the final output, verify that:
+
+* Every test case has appropriate test data.
+* Positive test cases have valid data.
+* Negative test cases have invalid/unsupported data.
+* Boundary test cases contain appropriate boundary values.
+* Edge cases contain realistic edge data.
+* No real personal or sensitive data is used.
+* No unsupported application rules have been invented.
+* Unknown constraints are explicitly identified.
+* Test data is practical for manual execution.
+* Test data does not unnecessarily duplicate other data.
+
+---
+
+# COVERAGE SUMMARY
+
+After the test data table, provide:
+
+**Total Test Cases:** [count]
+
+**Test Cases with Test Data:** [count]
+
+**Positive Data Sets:** [count]
+
+**Negative Data Sets:** [count]
+
+**Boundary Data Sets:** [count]
+
+**Edge Data Sets:** [count]
+
+**Test Cases Missing Required Data:** [count]
+
+**Data Coverage:** [percentage]
+
+---
+
+# INPUT
+
+Now analyze the Requirement, Acceptance Criteria, and Test Cases provided above and generate the complete execution-ready test data set.
+
+Do not generate generic examples.
+
+Generate test data specifically for the supplied test cases.

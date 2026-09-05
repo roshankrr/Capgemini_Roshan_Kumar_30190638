@@ -1,0 +1,111 @@
+Generate a **Requirements Traceability Matrix (RTM)** for the following OrangeHRM user stories.
+
+### User Stories
+
+**US-01: Login**
+
+As a registered user, I want to log in using my username and password so that I can securely access the OrangeHRM application.
+
+**Acceptance Criteria:**
+
+* AC-L01: The login page should display a Username field.
+* AC-L02: The login page should display a Password field.
+* AC-L03: The login page should display a Login button.
+* AC-L04: The user should be able to enter a valid username.
+* AC-L05: The user should be able to enter a password.
+* AC-L06: The password should be masked while being entered.
+* AC-L07: When valid credentials are entered and the user clicks Login, the user should be successfully logged in and redirected to the appropriate landing/dashboard page.
+* AC-L08: When invalid username and/or password is entered, the system should display an appropriate authentication error message.
+* AC-L09: When the Username field is empty and the user clicks Login, the system should display appropriate validation feedback.
+* AC-L10: When the Password field is empty and the user clicks Login, the system should display appropriate validation feedback.
+* AC-L11: When both Username and Password fields are empty and the user clicks Login, the system should prevent login and display appropriate validation feedback.
+* AC-L12: The Login button should be accessible and usable through keyboard interaction.
+
+---
+
+**US-02: Social Media Links**
+
+As a user, I want to see social media links on the login page so that I can access OrangeHRM's official social media pages.
+
+**Acceptance Criteria:**
+
+* AC-S01: Social media links should be displayed at the bottom of the login page.
+* AC-S02: Each displayed social media icon/link should be clearly identifiable.
+* AC-S03: Each social media link should be clickable.
+* AC-S04: Clicking a social media link should navigate the user to the corresponding official social media page.
+* AC-S05: The social media links should not interfere with the login form or Login button.
+* AC-S06: The social media links should remain accessible on supported screen sizes.
+* AC-S07: Social media links should be keyboard accessible.
+
+---
+
+**US-03: Forgot Password**
+
+As a registered user who has forgotten my password, I want to reset my password so that I can regain access to my account.
+
+**Acceptance Criteria:**
+
+* AC-F01: A Forgot your password? link should be available on the login page.
+* AC-F02: Clicking the Forgot Password link should navigate the user to the password reset page.
+* AC-F03: The password reset page should provide the required username field.
+* AC-F04: The user should be able to enter their username and initiate the password reset process.
+* AC-F05: When a valid registered username is submitted, the system should proceed with the password reset process and provide appropriate confirmation.
+* AC-F06: When an invalid/non-registered username is submitted, the system should provide appropriate feedback according to the application's security behavior.
+* AC-F07: When the username field is empty, the system should prevent submission and display appropriate validation feedback.
+* AC-F08: The user should have an option to return to the login page from the password reset flow.
+* AC-F09: The password reset flow should not expose sensitive account information.
+* AC-F10: The password reset functionality should be accessible using keyboard navigation.
+
+---
+
+### RTM Requirements
+
+Create the RTM using **only the following four columns**:
+
+1. **Requirement ID**
+2. **Requirement Desc**
+3. **Test Case ID**
+4. **Test Case Status**
+
+### RTM Generation Rules
+
+* Treat each **acceptance criterion as a separate requirement**.
+* Generate a unique **Requirement ID** for every acceptance criterion.
+* Use clear and consistent IDs such as:
+
+  * REQ-L01, REQ-L02... for Login
+  * REQ-S01, REQ-S02... for Social Media Links
+  * REQ-F01, REQ-F02... for Forgot Password
+* In **Requirement Desc**, provide a concise description of the corresponding acceptance criterion.
+* Create one or more appropriate **Test Case IDs** for each requirement.
+* A requirement may have multiple test cases if necessary to achieve adequate coverage.
+* Use test case IDs such as:
+
+  * TC-L001, TC-L002... for Login
+  * TC-S001, TC-S002... for Social Media Links
+  * TC-F001, TC-F002... for Forgot Password
+* Ensure **every requirement has at least one mapped test case**.
+* Do not create unnecessary duplicate test cases.
+* **Test Case Status** should initially be set to **"Not Executed"** for all test cases because execution results are not yet available.
+* If multiple test cases map to the same requirement, list each test case as a separate RTM row.
+* Do not add extra columns such as User Story, Acceptance Criteria ID, Priority, Expected Result, Test Scenario, or Execution Date.
+* Ensure complete traceability from every acceptance criterion to at least one test case.
+* At the end, provide a short **RTM Coverage Summary** showing:
+
+  * Total Requirements
+  * Total Test Cases
+  * Requirements Covered
+  * Requirements Not Covered
+  * Requirement Coverage Percentage
+
+### Expected Output Format
+
+| Requirement ID | Requirement Desc                                     | Test Case ID | Test Case Status |
+| -------------- | ---------------------------------------------------- | ------------ | ---------------- |
+| REQ-L01        | Verify Username field is displayed on the login page | TC-L001      | Not Executed     |
+| REQ-L02        | Verify Password field is displayed on the login page | TC-L002      | Not Executed     |
+| REQ-L03        | Verify Login button is displayed on the login page   | TC-L003      | Not Executed     |
+
+Continue the table until **all acceptance criteria from all three user stories are completely covered**.
+
+Do not omit any acceptance criterion.

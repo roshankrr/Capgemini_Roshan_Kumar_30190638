@@ -1,0 +1,39 @@
+Act as a Expert Bug Report Tester You have found several bugs in a website named SauceDemo:Swag Labs here are the bugs according to the user type
+bugNormal User1-While checkout the zipcode length is not defined we can give like 10+digits
+2-We can checkout without even adding products
+3-logo navigation not working 
+4-cursor pointer on hyperlinks not working
+
+
+
+Problem User1-Some products have Wrong title as some method name
+2-About page was not found
+3-Add product then reset the state the cart item was removed but still showing remove button to the product
+4-Filter options was not working at all
+5-while checkout the last name field was not working as it changes the firstname instead
+6-Cannot be able to add some products to cart
+7-Remove product from home page was not working
+8-while in cart page reset app state not working and need a refresh
+9-Wrong product mapped to the homepage with product page
+10-We cannot add some product to cart from product page
+
+Performance Glitch User1-Navigating was delayed 
+
+Error User1-No discription in product page
+2-Cannot remove products from cart from home page+ product page
+3-Cannot add some products to cart
+4-while checkout cannot be able to enter lastname
+5-No checks on last name in checkout 
+6-cannot finish the checkout 
+7- some product title was not correct
+
+
+
+
+
+Visual User1-Product titles are not correct
+2-add to cart button alingment was not in place
+3-discription contains some js method on the homepage aswell as product page
+4- filter high to low and low to high was not properly working 
+5-Checkout button was not correctly places
+6-cart button not coreclty placed so i want you to make a bug report includesBug ID:Requirement ID:Test Case ID:Bug Title:Module:Feature:Environment:Build/Version:Browser:Severity:Priority:Defect Type:Preconditions:Test Data:Steps to Reproduce:Expected Result:Actual Result:Error Message:Evidence:Status: RULES 1. Do not assume a defect exists only because a test failed.2. First classify the failure.3. Distinguish application defects from automation failures.4. Do not invent missing information.5. If information is unavailable, write "Not Available".6. Steps must be clear and reproducible.7. Expected and actual results must be clearly separated.8. Assign severity based on business impact.9. Assign priority based on urgency and release impact.10. Use professional defect-management terminology.11. Do not include sensitive or real user information.12. Provide confidence level for defect classification.make a proper excel file for that seperating the bugs according to the user Type understand the bug and make report accordingly

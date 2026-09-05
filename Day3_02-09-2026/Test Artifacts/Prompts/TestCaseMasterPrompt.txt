@@ -1,0 +1,287 @@
+Act as a **Senior QA Engineer / Test Analyst** and generate comprehensive **manual test cases** for the requirement and acceptance criteria provided below.
+
+## REQUIREMENT
+
+**Requirement ID:** [REQ-XX]
+
+**Requirement Description:**
+[Enter requirement description here]
+
+## ACCEPTANCE CRITERIA
+
+[Paste all acceptance criteria associated with this requirement here]
+
+Example:
+
+* AC-01: [Acceptance criterion]
+* AC-02: [Acceptance criterion]
+* AC-03: [Acceptance criterion]
+* AC-04: [Acceptance criterion]
+
+---
+
+# TEST CASE GENERATION OBJECTIVE
+
+Generate a complete and practical set of manual test cases that provides sufficient coverage for the requirement and **all provided acceptance criteria**.
+
+The test cases must cover the following categories wherever applicable:
+
+### 1. Positive Test Cases
+
+Verify that the application works correctly with valid inputs and expected user behavior.
+
+Include scenarios such as:
+
+* Valid inputs
+* Valid combinations of inputs
+* Successful workflows
+* Correct navigation
+* Correct UI behavior
+* Successful submission/actions
+* Expected user interactions
+
+### 2. Negative Test Cases
+
+Verify that the application handles invalid, unexpected, or prohibited inputs/actions correctly.
+
+Include scenarios such as:
+
+* Invalid inputs
+* Incorrect combinations of inputs
+* Empty/null values
+* Missing mandatory fields
+* Invalid formats
+* Unsupported characters
+* Incorrect navigation/actions
+* Unauthorized or prohibited actions
+* Error handling and validation messages
+* Failure scenarios
+
+### 3. Boundary & Edge Test Cases
+
+Identify and test values or conditions at the boundaries of the requirement.
+
+Where applicable, include:
+
+* Minimum valid value
+* Maximum valid value
+* Below minimum
+* Above maximum
+* Empty value
+* Single-character value
+* Very long input
+* Special characters
+* Leading/trailing spaces
+* Duplicate values
+* Zero/negative values where applicable
+* Large values
+* Repeated actions
+* Refresh/back/forward browser behavior
+* Session timeout or expired session where applicable
+* Different supported screen sizes/devices where applicable
+
+**Important:** Do not invent technical limits or business rules that are not provided. If a boundary value is unknown, write:
+
+**"Limit/value to be confirmed from application specification."**
+
+### 4. UI / Usability Test Cases
+
+Where applicable, verify:
+
+* Element visibility
+* Labels
+* Alignment
+* Enabled/disabled state
+* Field usability
+* Button usability
+* Error/validation messages
+* Navigation
+* Consistency
+* User-friendly behavior
+
+### 5. Accessibility Test Cases
+
+Where applicable, verify:
+
+* Keyboard navigation
+* Tab order
+* Focus visibility
+* Keyboard activation
+* Accessible interaction with controls
+* Appropriate labels/text
+
+### 6. Functional & Integration Test Cases
+
+Where applicable, verify:
+
+* End-to-end functionality
+* Navigation between pages
+* Data submission
+* Data persistence
+* Interaction between related components
+* Correct system response
+
+---
+
+# TEST CASE DESIGN RULES
+
+1. Every acceptance criterion must be covered by at least one test case.
+
+2. A single acceptance criterion may have multiple test cases when required for adequate coverage.
+
+3. Do not create unnecessary duplicate test cases.
+
+4. Test cases must be independent, clear, and executable by a manual tester.
+
+5. Each test case should verify one clear behavior or scenario.
+
+6. Use realistic test data where possible.
+
+7. Do not assume functionality that is not mentioned in the requirement or acceptance criteria.
+
+8. Do not create additional requirements.
+
+9. Do not convert acceptance criteria into separate requirements.
+
+10. Clearly distinguish between:
+
+* Positive
+* Negative
+* Boundary/Edge
+* UI/Usability
+* Accessibility
+* Functional/Integration
+  test cases.
+
+11. Assign appropriate test priority:
+
+* High
+* Medium
+* Low
+
+Use **High** for critical/core functionality, **Medium** for important supporting functionality, and **Low** for minor/non-critical scenarios.
+
+---
+
+# REQUIRED TEST CASE FORMAT
+
+Generate the test cases using **exactly these fields and in exactly this order**:
+
+| Testcase ID | Test Case Name | Test Steps | Test Priority | Input Data | Expected Results | Actual Results | Test Env | Execution Status | Bug Severity | Bug Priority | Notes |
+
+### Field Rules
+
+**Testcase ID**
+
+* Use sequential IDs.
+* Use the requirement-specific prefix where possible.
+* Example: REQ-01 → TC-001, REQ-02 → TC-002, etc.
+* If a prefix is provided, follow it.
+
+**Test Case Name**
+
+* Use a concise and descriptive title.
+* Start with an action such as "Verify", "Validate", "Check", or "Confirm" where appropriate.
+
+**Test Steps**
+
+* Provide clear, numbered, executable manual test steps.
+* Do not combine unrelated actions into a single step.
+
+**Test Priority**
+
+* Use only: High, Medium, or Low.
+
+**Input Data**
+
+* Clearly specify the data required to execute the test.
+* Include valid, invalid, boundary, and edge data where applicable.
+
+**Expected Results**
+
+* Describe the expected system behavior clearly and objectively.
+* Results should be measurable/verifiable.
+
+**Actual Results**
+
+* Since these are newly generated test cases and have not yet been executed, set this to:
+  **Not Executed**
+
+**Test Env**
+
+* If a specific environment is provided, use it.
+* If no environment is provided, use:
+  **QA/Test Environment**
+
+**Execution Status**
+
+* Since the test cases have not yet been executed, set this to:
+  **Not Executed**
+* Do not use Pass or Fail before actual execution.
+
+**Bug Severity**
+
+* Set to:
+  **N/A**
+* Do not assume that a bug exists during test-case creation.
+
+**Bug Priority**
+
+* Set to:
+  **N/A**
+* Do not assign bug priority unless an actual defect has been identified.
+
+**Notes**
+
+* Include useful information such as:
+
+  * Preconditions
+  * Dependency
+  * Specification dependency
+  * Boundary value to be confirmed
+  * Environment dependency
+* Use `N/A` when no additional notes are required.
+
+---
+
+# COVERAGE VALIDATION
+
+Before providing the final test cases, internally verify that:
+
+* Every acceptance criterion has test coverage.
+* Positive scenarios are covered where applicable.
+* Negative scenarios are covered where applicable.
+* Boundary/edge scenarios are covered where applicable.
+* Important UI scenarios are covered where applicable.
+* Accessibility scenarios are covered where applicable.
+* Functional/integration scenarios are covered where applicable.
+* No unnecessary duplicate test cases exist.
+* No unsupported functionality has been invented.
+
+After generating the test cases, provide a brief coverage summary:
+
+**Requirement:** [REQ-XX]
+
+**Total Acceptance Criteria:** [count]
+
+**Total Test Cases:** [count]
+
+**Positive Test Cases:** [count]
+
+**Negative Test Cases:** [count]
+
+**Boundary/Edge Test Cases:** [count]
+
+**Other Test Cases:** [count]
+
+**Acceptance Criteria Covered:** [count/count]
+
+**Coverage:** [percentage]
+
+---
+
+# INPUT
+
+Now generate the complete test cases using the Requirement and Acceptance Criteria provided at the beginning of this prompt.
+
+Do not provide sample test cases. Generate the **complete test-case set**.

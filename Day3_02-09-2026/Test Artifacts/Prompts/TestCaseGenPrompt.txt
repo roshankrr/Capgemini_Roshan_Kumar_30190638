@@ -1,0 +1,24 @@
+Act as a Expert Test engineer who understand the test scenario very deeply and generate the test case out of it 
+
+Sceanario/context: Here is a Payment flow where the user need to fill the card details the fields to be filled are 
+	-card holder name
+	-card number
+	-expiry date (mm/yy)
+	-cvv
+	-pay button
+
+Generate: Generate a very well defined excel data which will having fields as
+	-Test Case Id
+	-Test Name
+	-Test Steps
+	-Test Priority(low/high/med)
+	-Input Data
+	-Expected Result
+	-Actual Result
+	-Test Environment
+	-Execution Status(Pass/fail)
+	-Bug Severity (High/Med/Low)
+	-Bug Priority (High/Med/Low)
+	-Notes 
+
+Input: I want you to generate all testcases for this scenario according to the fields with positive negative and boundary conditions and put them into the excel sheet with the dropdowns as mentions
