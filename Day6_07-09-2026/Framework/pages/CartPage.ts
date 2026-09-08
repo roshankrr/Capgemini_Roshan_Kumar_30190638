@@ -12,6 +12,9 @@ export class CartPage {
     return this.page.getByTestId('inventory-item-name').allTextContents();
   }
 
+
+
+  
   async removeItemByName(productName: string): Promise<void> {
     const row = this.page.locator('[data-test="cart-list"] [data-test="inventory-item"]').filter({ hasText: productName });
     await row.getByRole('button', { name: 'Remove' }).click();
