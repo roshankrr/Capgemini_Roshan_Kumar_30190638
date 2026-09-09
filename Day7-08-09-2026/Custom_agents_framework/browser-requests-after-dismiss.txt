@@ -1,0 +1,11 @@
+18. [GET] https://phptravels.net/api/esim/featured?currency=USD => [200] 
+19. [GET] https://phptravels.net/api/stays/featured?currency=USD => [200] 
+20. [GET] https://phptravels.net/api/cars/featured?currency=USD => [200] 
+21. [GET] https://phptravels.net/api/flights/featured?currency=USD => [200] 
+22. [GET] https://phptravels.net/api/tours/featured?currency=USD => [200] 
+23. [GET] https://phptravels.net/api/blogs?limit=4&lang=en => [200] 
+26. [GET] https://phptravels.net/partials/search/stays => [200] 
+27. [POST] https://phptravels.net/cdn-cgi/rum? => [204] 
+43. [POST] https://phptravels.net/api/save-demo-acknowledgement => [200] 
+
+Note: 34 static requests not shown, run with "static" option to see them.
