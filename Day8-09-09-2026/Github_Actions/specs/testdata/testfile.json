@@ -1,0 +1,313 @@
+{
+  "baseUrl": "https://phptravels.net/",
+  "homepage": {
+    "expectedCategories": [
+      "Stays",
+      "Flights",
+      "Visa",
+      "Trip Planner"
+    ],
+    "featuredProperties": [
+      "Burj Al Arab",
+      "Atlantis The Palm",
+      "Address Downtown Dubai",
+      "JW Marriott Marquis Dubai"
+    ],
+    "warningTexts": [
+      "Pricing May Not Reflect Real Rates",
+      "Configure Your Own API Credentials",
+      "Testing Environment Only - NO Real Payments",
+      "Demo Data May Be Reset Periodically"
+    ],
+    "appPromotion": {
+      "title": "Travel on the go with our app",
+      "storeLabels": [
+        "Download on the App Store",
+        "Get it on Google Play"
+      ]
+    },
+    "footerNavigation": {
+      "company": [
+        "Contact us",
+        "About us",
+        "Cookies Policy",
+        "Privacy Policy",
+        "Become a Supplier",
+        "Terms of Use"
+      ],
+      "support": [
+        "Affiliate Program",
+        "Investors",
+        "Careers and Jobs",
+        "How to Book",
+        "File a Claim",
+        "Refund Policy"
+      ],
+      "explore": [
+        "Best Travel Deals",
+        "Travel Documents",
+        "Travel Insurance"
+      ],
+      "contactInfo": {
+        "address": "71 St, Suite 900 San Francisco, United States",
+        "phone": "+123456789",
+        "email": "email@agency.com"
+      }
+    }
+  },
+  "hotelSearch": {
+    "validCases": [
+      {
+        "id": "TC-07-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-08",
+        "checkOut": "2026-09-09",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United States",
+        "expectedResult": "hotel results displayed"
+      },
+      {
+        "id": "TC-07-B",
+        "destination": "Burj Al Arab",
+        "checkIn": "2026-09-10",
+        "checkOut": "2026-09-12",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United Arab Emirates",
+        "expectedResult": "matched property displayed"
+      },
+      {
+        "id": "TC-09-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-15",
+        "checkOut": "2026-09-18",
+        "guests": 4,
+        "rooms": 2,
+        "nationality": "India",
+        "expectedResult": "higher occupancy search accepted"
+      }
+    ],
+    "invalidCases": [
+      {
+        "id": "TC-10-A",
+        "destination": "",
+        "checkIn": "2026-09-08",
+        "checkOut": "2026-09-09",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United States",
+        "expectedValidation": "destination required"
+      },
+      {
+        "id": "TC-11-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-12",
+        "checkOut": "2026-09-09",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United States",
+        "expectedValidation": "invalid date range"
+      },
+      {
+        "id": "TC-12-A",
+        "destination": "@#$%^&*()_+!~`",
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-23",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United Kingdom",
+        "expectedValidation": "input handled safely"
+      },
+      {
+        "id": "TC-13-A",
+        "destination": "ZZZ-No-Hotel-Exists-123",
+        "checkIn": "2026-09-20",
+        "checkOut": "2026-09-23",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United States",
+        "expectedResult": "no results state"
+      }
+    ],
+    "boundaryCases": [
+      {
+        "id": "TC-08-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-08",
+        "checkOut": "2026-09-09",
+        "guests": 1,
+        "rooms": 1,
+        "nationality": "United States",
+        "expectedResult": "minimum valid booking accepted"
+      },
+      {
+        "id": "TC-20-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-08",
+        "checkOut": "2026-09-08",
+        "guests": 2,
+        "rooms": 1,
+        "nationality": "United States",
+        "expectedResult": "same-day validation or safe response"
+      },
+      {
+        "id": "TC-31-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-10",
+        "checkOut": "2026-09-12",
+        "guests": 0,
+        "rooms": 0,
+        "nationality": "United States",
+        "expectedValidation": "guest and room combination invalid"
+      }
+    ],
+    "partialFormCases": [
+      {
+        "id": "TC-30-A",
+        "destination": "Dubai",
+        "checkIn": "2026-09-08",
+        "checkOut": "",
+        "guests": 2,
+        "rooms": 1,
+        "expectedValidation": "missing required checkout date"
+      },
+      {
+        "id": "TC-30-B",
+        "destination": "",
+        "checkIn": "",
+        "checkOut": "2026-09-10",
+        "guests": 1,
+        "rooms": 1,
+        "expectedValidation": "missing destination and checkin"
+      }
+    ]
+  },
+  "bookingFlow": {
+    "nationalityOptions": [
+      "United States",
+      "United Arab Emirates",
+      "India",
+      "United Kingdom",
+      "Canada",
+      "Australia"
+    ],
+    "nationalityValidation": {
+      "missingNationality": {
+        "id": "TC-18-A",
+        "expectedBehavior": "block continuation and prompt for nationality"
+      },
+      "selectedNationality": {
+        "id": "TC-19-A",
+        "selected": "United States",
+        "expectedBehavior": "continue booking flow"
+      }
+    },
+    "propertySelection": [
+      "Burj Al Arab",
+      "Atlantis The Palm",
+      "Address Downtown Dubai",
+      "JW Marriott Marquis Dubai"
+    ],
+    "modifySearch": {
+      "triggerText": "Modify Search",
+      "updatedValues": [
+        {
+          "destination": "Dubai",
+          "checkIn": "2026-09-15",
+          "checkOut": "2026-09-18",
+          "guests": 3,
+          "rooms": 2,
+          "nationality": "India"
+        }
+      ],
+      "expectedBehavior": "search form is editable and updated results are shown"
+    }
+  },
+  "propertyDetail": {
+    "propertyNames": [
+      "Burj Al Arab",
+      "Atlantis The Palm",
+      "Address Downtown Dubai",
+      "JW Marriott Marquis Dubai"
+    ],
+    "expectedDetails": [
+      "Burj Al Arab",
+      "Jumeirah Beach Road",
+      "USD 1,545.00"
+    ],
+    "bookingActions": [
+      "From",
+      "USD"
+    ]
+  },
+  "navigation": {
+    "footerLinks": {
+      "company": [
+        "Contact us",
+        "About us",
+        "Cookies Policy",
+        "Privacy Policy",
+        "Become a Supplier",
+        "Terms of Use"
+      ],
+      "support": [
+        "Affiliate Program",
+        "Investors",
+        "Careers and Jobs",
+        "How to Book",
+        "File a Claim",
+        "Refund Policy"
+      ],
+      "explore": [
+        "Best Travel Deals",
+        "Travel Documents",
+        "Travel Insurance"
+      ]
+    },
+    "pageTargets": {
+      "contactUs": "/page/contact-us",
+      "aboutUs": "/page/about-us",
+      "privacyPolicy": "/page/privacy-policy",
+      "termsOfUse": "/page/terms-of-use",
+      "supportLinks": {
+        "affiliateProgram": "/page/affiliate-program",
+        "investors": "/page/investors",
+        "careersAndJobs": "/page/careers-and-jobs"
+      }
+    },
+    "footerPersistence": {
+      "sequence": [
+        "home",
+        "contact",
+        "about",
+        "privacy",
+        "terms"
+      ],
+      "expectedBehavior": "footer links continue to work across navigation"
+    }
+  },
+  "demoWarnings": {
+    "pricing": "Pricing May Not Reflect Real Rates",
+    "apiCredentials": "Configure Your Own API Credentials",
+    "payments": "Testing Environment Only - NO Real Payments",
+    "dataReset": "Demo Data May Be Reset Periodically",
+    "productionMessage": "Need Help or Ready for Production?"
+  },
+  "selectors": {
+    "search": {
+      "destination": "#st_dest_q",
+      "checkIn": "input[name='checkin_date']",
+      "checkOut": "input[name='checkout_date']",
+      "guests": "button:has-text('Guests')",
+      "rooms": "button:has-text('Rooms')",
+      "submit": "button[aria-label='Search Hotels']"
+    },
+    "hotelCard": "text=Burj Al Arab",
+    "modifySearch": "text=Modify Search",
+    "nationality": "select",
+    "footer": "footer",
+    "appStore": "text=Download on the App Store",
+    "googlePlay": "text=Get it on Google Play"
+  }
+}

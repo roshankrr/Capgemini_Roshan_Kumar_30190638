@@ -1,0 +1,263 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e4]:
+      - generic [ref=f3e5]:
+        - link [ref=f3e6] [cursor=pointer]:
+          - /url: https://phptravels.net/
+          - img "PHPTARVELS" [ref=f3e7]
+        - navigation [ref=f3e8]:
+          - button "Services expand_more" [ref=f3e10] [cursor=pointer]:
+            - generic [ref=f3e16]: Services
+            - generic [ref=f3e17]: expand_more
+          - button "Company expand_more" [ref=f3e19] [cursor=pointer]:
+            - generic [ref=f3e23]: Company
+            - generic [ref=f3e24]: expand_more
+      - generic [ref=f3e26]:
+        - generic [ref=f3e28]:
+          - button "USD" [ref=f3e29] [cursor=pointer]
+          - button "English flag en" [ref=f3e38] [cursor=pointer]:
+            - img "English flag" [ref=f3e39]
+            - generic [ref=f3e40]: en
+        - link "login Login" [ref=f3e42] [cursor=pointer]:
+          - /url: https://phptravels.net/login
+          - generic [ref=f3e43]: login
+          - generic [ref=f3e44]: Login
+        - button "person_add Signup expand_more" [ref=f3e46] [cursor=pointer]:
+          - generic [ref=f3e47]: person_add
+          - generic [ref=f3e48]: Signup
+          - generic [ref=f3e49]: expand_more
+  - generic [ref=f3e50]:
+    - img "Hero" [ref=f3e53]
+    - generic [ref=f3e54]:
+      - generic [ref=f3e55]:
+        - heading "Travel the way you love!" [level=1] [ref=f3e56]
+        - paragraph [ref=f3e57]: Let's help you plan your next journey the one that will leave a lifetime of memories.
+      - generic [ref=f3e58]:
+        - tablist [ref=f3e59]:
+          - tab "hotel Stays" [ref=f3e60] [cursor=pointer]:
+            - generic [ref=f3e61]: hotel
+            - generic [ref=f3e62]: Stays
+          - tab "directions_bus bus" [ref=f3e63] [cursor=pointer]:
+            - generic [ref=f3e64]: directions_bus
+            - generic [ref=f3e65]: bus
+          - tab "directions_car Cars" [ref=f3e66] [cursor=pointer]:
+            - generic [ref=f3e67]: directions_car
+            - generic [ref=f3e68]: Cars
+          - tab "sim_card eSIM" [ref=f3e69] [cursor=pointer]:
+            - generic [ref=f3e70]: sim_card
+            - generic [ref=f3e71]: eSIM
+          - tab "directions_boat ferries" [ref=f3e72] [cursor=pointer]:
+            - generic [ref=f3e73]: directions_boat
+            - generic [ref=f3e74]: ferries
+          - tab "flight_takeoff Flights" [ref=f3e75] [cursor=pointer]:
+            - generic [ref=f3e76]: flight_takeoff
+            - generic [ref=f3e77]: Flights
+          - tab "train rail" [ref=f3e78] [cursor=pointer]:
+            - generic [ref=f3e79]: train
+            - generic [ref=f3e80]: rail
+          - tab "explore Tours" [ref=f3e81] [cursor=pointer]:
+            - generic [ref=f3e82]: explore
+            - generic [ref=f3e83]: Tours
+          - tab "mosque Umrah" [ref=f3e84] [cursor=pointer]:
+            - generic [ref=f3e85]: mosque
+            - generic [ref=f3e86]: Umrah
+          - tab "card_membership Visa" [ref=f3e87] [cursor=pointer]:
+            - generic [ref=f3e88]: card_membership
+            - generic [ref=f3e89]: Visa
+          - tab "auto_awesome AI Trip Planner" [ref=f3e90] [cursor=pointer]:
+            - generic [ref=f3e91]: auto_awesome
+            - generic [ref=f3e92]: AI Trip Planner
+        - generic [ref=f3e93]:
+          - tabpanel [ref=f3e94]
+          - text: Describe the trip you need… (e.g. Round trip Dubai to Paris in October for 2 adults, beach resort stay)
+  - generic [ref=f3e216]:
+    - img "Mobile Apps" [ref=f3e218]
+    - generic [ref=f3e220]:
+      - heading "Travel on the go with our app" [level=1] [ref=f3e221]
+      - paragraph [ref=f3e222]: Book from your phone anytime, anywhere.
+      - generic [ref=f3e223]:
+        - link "Download on the App Store" [ref=f3e224] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.phptravels.android
+          - generic [ref=f3e227]:
+            - generic [ref=f3e228]: Download on the
+            - generic [ref=f3e229]: App Store
+        - link "Get it on Google Play" [ref=f3e230] [cursor=pointer]:
+          - /url: https://apps.apple.com/us/app/phptravels/id6776969102
+          - generic [ref=f3e233]:
+            - generic [ref=f3e234]: Get it on
+            - generic [ref=f3e235]: Google Play
+  - contentinfo [ref=f3e236]:
+    - generic [ref=f3e238]:
+      - generic [ref=f3e239]:
+        - generic [ref=f3e240]:
+          - link [ref=f3e242] [cursor=pointer]:
+            - /url: https://phptravels.net/
+            - img "PHPTARVELS" [ref=f3e243]
+          - paragraph [ref=f3e244]: Your trusted travel partner for unforgettable journeys. Discover the world with our comprehensive booking services.
+        - generic [ref=f3e245]:
+          - generic [ref=f3e246]:
+            - generic [ref=f3e247]: headset_mic
+            - generic [ref=f3e249]:
+              - paragraph [ref=f3e250]: 24/7 Support
+              - paragraph [ref=f3e251]: Always here to help
+          - generic [ref=f3e252]:
+            - link "Email Support" [ref=f3e253] [cursor=pointer]:
+              - /url: mailto:email@agency.com
+              - generic [ref=f3e254]: mail
+            - link "WhatsApp Support" [ref=f3e255] [cursor=pointer]:
+              - /url: https://wa.me/123456789
+      - generic [ref=f3e259]:
+        - generic [ref=f3e260]:
+          - heading "Company" [level=4] [ref=f3e261]
+          - list [ref=f3e262]:
+            - listitem [ref=f3e263]:
+              - link "Contact us" [ref=f3e264] [cursor=pointer]:
+                - /url: https://phptravels.net/page/contact-us
+            - listitem [ref=f3e265]:
+              - link "About us" [ref=f3e266] [cursor=pointer]:
+                - /url: https://phptravels.net/page/about-us
+            - listitem [ref=f3e267]:
+              - link "Cookies Policy" [ref=f3e268] [cursor=pointer]:
+                - /url: https://phptravels.net/page/cookies-policy
+            - listitem [ref=f3e269]:
+              - link "Privacy Policy" [ref=f3e270] [cursor=pointer]:
+                - /url: https://phptravels.net/page/privacy-policy
+            - listitem [ref=f3e271]:
+              - link "Become a Supplier" [ref=f3e272] [cursor=pointer]:
+                - /url: https://phptravels.net/page/become-a-supplier
+            - listitem [ref=f3e273]:
+              - link "Terms of Use" [ref=f3e274] [cursor=pointer]:
+                - /url: https://phptravels.net/page/terms-of-use
+        - generic [ref=f3e275]:
+          - heading "Support" [level=4] [ref=f3e276]
+          - list [ref=f3e277]:
+            - listitem [ref=f3e278]:
+              - link "Affiliate Program" [ref=f3e279] [cursor=pointer]:
+                - /url: https://phptravels.net/page/affiliate-program
+            - listitem [ref=f3e280]:
+              - link "Investors" [ref=f3e281] [cursor=pointer]:
+                - /url: https://phptravels.net/page/investors
+            - listitem [ref=f3e282]:
+              - link "Careers and Jobs" [ref=f3e283] [cursor=pointer]:
+                - /url: https://phptravels.net/page/careers-and-jobs
+            - listitem [ref=f3e284]:
+              - link "How to Book" [ref=f3e285] [cursor=pointer]:
+                - /url: https://phptravels.net/page/how-to-book
+            - listitem [ref=f3e286]:
+              - link "File a Claim" [ref=f3e287] [cursor=pointer]:
+                - /url: https://phptravels.net/page/file-a-claim
+            - listitem [ref=f3e288]:
+              - link "Refund Policy" [ref=f3e289] [cursor=pointer]:
+                - /url: https://phptravels.net/page/refund-policy
+        - generic [ref=f3e290]:
+          - heading "Explore" [level=4] [ref=f3e291]
+          - list [ref=f3e292]:
+            - listitem [ref=f3e293]:
+              - link "Best Travel Deals" [ref=f3e294] [cursor=pointer]:
+                - /url: https://phptravels.net/page/best-travel-deals
+            - listitem [ref=f3e295]:
+              - link "Travel Documents" [ref=f3e296] [cursor=pointer]:
+                - /url: https://phptravels.net/page/travel-documents
+            - listitem [ref=f3e297]:
+              - link "Travel Insurance" [ref=f3e298] [cursor=pointer]:
+                - /url: https://phptravels.net/page/travel-insurance
+      - generic [ref=f3e299]:
+        - heading "Get In Touch" [level=4] [ref=f3e300]
+        - generic [ref=f3e301]:
+          - generic [ref=f3e302]:
+            - generic [ref=f3e303]: location_on
+            - paragraph [ref=f3e304]: 71 St, Suite 900 San Francisco, United States
+          - generic [ref=f3e305]:
+            - generic [ref=f3e306]: call
+            - link "+123456789" [ref=f3e307] [cursor=pointer]:
+              - /url: tel:+123456789
+          - generic [ref=f3e308]:
+            - generic [ref=f3e309]: mail
+            - link "email@agency.com" [ref=f3e310] [cursor=pointer]:
+              - /url: mailto:email@agency.com
+          - generic [ref=f3e312]:
+            - link "Facebook" [ref=f3e313] [cursor=pointer]:
+              - /url: https://facebook.com/phptravels
+            - link "Twitter" [ref=f3e316] [cursor=pointer]:
+              - /url: https://twitter.com/phptravels
+            - link "Instagram" [ref=f3e319] [cursor=pointer]:
+              - /url: https://instagram.com/phptravels
+            - link "YouTube" [ref=f3e322] [cursor=pointer]:
+              - /url: https://youtube.com/@phptravels
+            - link "LinkedIn" [ref=f3e325] [cursor=pointer]:
+              - /url: https://linkedin.com/company/phptravels
+    - generic [ref=f3e330]:
+      - generic [ref=f3e331]:
+        - paragraph [ref=f3e332]: © 2026 PHPTARVELS. All rights reserved.
+        - paragraph [ref=f3e333]:
+          - text: Powered by
+          - link "PHPTRAVELS" [ref=f3e334] [cursor=pointer]:
+            - /url: https://phptravels.com
+      - generic [ref=f3e335]:
+        - link "Privacy Policy" [ref=f3e336] [cursor=pointer]:
+          - /url: https://phptravels.net/page/privacy-policy
+        - generic [ref=f3e337]:
+          - generic [ref=f3e338]: •
+          - link "Terms of Use" [ref=f3e339] [cursor=pointer]:
+            - /url: https://phptravels.net/page/terms-of-use
+        - generic [ref=f3e340]:
+          - generic [ref=f3e341]: •
+          - link "Cookies Policy" [ref=f3e342] [cursor=pointer]:
+            - /url: https://phptravels.net/page/cookies-policy
+        - generic [ref=f3e343]:
+          - generic [ref=f3e344]: •
+          - link "Refund Policy" [ref=f3e345] [cursor=pointer]:
+            - /url: https://phptravels.net/page/refund-policy
+      - generic [ref=f3e346]:
+        - generic [ref=f3e347]:
+          - generic [ref=f3e348]: verified_user
+          - generic [ref=f3e349]: SSL Secure
+        - link "verified IATA" [ref=f3e350] [cursor=pointer]:
+          - /url: https://iata.co
+          - generic [ref=f3e351]: verified
+          - generic [ref=f3e352]: IATA
+        - generic [ref=f3e353]:
+          - generic [ref=f3e354]: credit_card
+          - generic [ref=f3e355]: PCI DSS
+  - generic [ref=f3e357]:
+    - generic [ref=f3e359]:
+      - generic [ref=f3e360]: ⚠️
+      - generic [ref=f3e361]:
+        - 'heading "Important Notice: Demo Environment" [level=2] [ref=f3e362]'
+        - paragraph [ref=f3e363]: Please read this information carefully before using the system
+    - generic [ref=f3e364]:
+      - generic [ref=f3e365]:
+        - generic [ref=f3e366]: currency_exchange
+        - generic [ref=f3e367]:
+          - heading "Pricing May Not Reflect Real Rates" [level=3] [ref=f3e368]
+          - paragraph [ref=f3e369]: Prices displayed in this demo environment are simulated and may differ significantly from real-world rates. Live rates require valid supplier API credentials to be configured in your account settings.
+      - generic [ref=f3e370]:
+        - generic [ref=f3e371]: vpn_key
+        - generic [ref=f3e372]:
+          - heading "Configure Your Own API Credentials" [level=3] [ref=f3e373]
+          - paragraph [ref=f3e374]:
+            - text: To access real supplier data and accurate pricing, you must add your own API keys through
+            - strong [ref=f3e375]: Admin Settings → Modules
+            - text: . This will enable live data integration and replace all demo content with real-time information.
+      - generic [ref=f3e376]:
+        - generic [ref=f3e377]: credit_card
+        - generic [ref=f3e378]:
+          - heading "Testing Environment Only - NO Real Payments" [level=3] [ref=f3e379]
+          - paragraph [ref=f3e380]: This is a testing platform for development purposes. Do not use real payment methods or credit card information. All payment gateway integrations are configured in sandbox/testing mode exclusively.
+      - generic [ref=f3e381]:
+        - generic [ref=f3e382]: storage
+        - generic [ref=f3e383]:
+          - heading "Demo Data May Be Reset Periodically" [level=3] [ref=f3e384]
+          - paragraph [ref=f3e385]: Demo environment data, including bookings, reservations, and settings, may be reset periodically for maintenance. Do not rely on this system for storing critical business information or live customer data.
+      - generic [ref=f3e386]:
+        - generic [ref=f3e387]: help
+        - generic [ref=f3e388]:
+          - heading "Need Help or Ready for Production?" [level=3] [ref=f3e389]
+          - paragraph [ref=f3e390]:
+            - text: For comprehensive documentation, technical support, API integration guides, and assistance with moving to production, visit
+            - link "phptravels.com" [ref=f3e391] [cursor=pointer]:
+              - /url: https://phptravels.com
+    - generic [ref=f3e392]:
+      - link "Learn More" [ref=f3e393] [cursor=pointer]:
+        - /url: https://phptravels.com/pricing
+      - button "I Understand & Continue" [ref=f3e394] [cursor=pointer]
